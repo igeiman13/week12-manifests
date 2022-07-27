@@ -2,10 +2,10 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: eks-example
-  namespace: eks-example
+  name: hello-world
+  namespace: hello-world
   labels:
-    app: eks-example
+    app: hello-world
   annotations:
     # Container Image Automated Updates
     flux.weave.works/automated: "true"
